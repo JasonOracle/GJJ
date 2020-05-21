@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>GJJ的答案之书</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <style>
+        body,html {
+            position: relative;
+            overflow: hidden;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            font-family: "微软雅黑";
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        body {
+            background: #d9e0e7;
+        }
+
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 48px;
+            width: 100%;
+            background: #fff;
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 48px;
+            letter-spacing: 1px;
+            padding-left: 15px;
+        }
+
+        footer {
+            position: fixed;
+            bottom: 4px;
+            left: 0;
+            width: 100%;
+            overflow: hidden;
+            text-align: center;
+        }
+
+        a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        #martix {
+            width: 375px;
+            text-align: center;
+            z-index: 999;
+            height: 300px;
+            margin-top: -140px;
+        }
+
+        #title {
+            margin: 35px 0 ;
+            height: 30px;
+            font-size: 30px;
+            text-align: center;
+            line-height: 30px;
+            color:#242a30;
+        }
+
+        #unicorn {
+            color: #FF9733;
+            font-weight: 700;
+            font-size: 30px;
+            background: #d9e0e7;
+        }
+
+        #pick {
+            width: 120px;
+            height: 40px;
+            vertical-align: middle;
+            cursor: pointer;
+            background: #00acac;
+            color: #fff;
+            border-radius: 40px;
+            border: none;
+            outline: none;
+        }
+
+        .telegram {
+            position: absolute;
+            z-index: -1;
+            color: #24292e;
+        }
+
+        .hide {
+            display: none;
+        }
+
+        .drink {
+            margin: 5px 0;
+            color: rgba(0,0,0,.5);
+            background-color: #fed4e5;
+            border-color: #fed4e5;
+            box-shadow: 0 0 0 2px rgba(254, 212, 229, .5);
+            padding: 2px 0;
+            font-size: 14px;
+        }
+
+        #drink {
+            width: 100px;
+            height: 28px;
+            line-height: 28px;
+            cursor: pointer;
+            background: #dc3545;
+            color: #fff;
+            border-radius: 50px;
+            border: none;
+            outline: none;
+            position: absolute;
+            bottom: 5px;
+            left: 26px;
+            font-size: 14px;
+            z-index: 999;
+            text-align: center;
+            letter-spacing: 1px;
+        }
+
+        #book {
+            font-family: "微软雅黑";
+        }
+
+        #diy {
+            width: 100px;
+            margin: 10px auto 0 auto;
+            color: #00acac;
+            font-size: 12px;
+        }
+
+        #submit {
+            width: 120px;
+            height: 30px;
+            vertical-align: middle;
+            cursor: pointer;
+            background: rgb(0, 123, 255);
+            color: #fff;
+            border-radius: 40px;
+            border: none;
+            outline: none;
+        }
+
+        #popover {
+            position: absolute;
+            bottom: 45px;
+            border: 1px solid rgba(0,0,0,.2);
+            border-radius: 8px;
+            background: #fff;
+        }
+
+        .popover-body {
+            padding: 12px;
+        }
+
+        .arrow {
+            position: absolute;
+            width: 0;
+            height: 0;
+            border-width: 8px 16px;
+            margin: 0 auto;
+            border-style:solid;
+            border-color:#fff transparent transparent transparent;
+            left: 60px;
+        }
+
+        #eq {
+            position: relative;
+            overflow: hidden;
+            width: 152px;
+            height: 220px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+
+    <header><a href="javascript:void(0)">ANSWERS BOOK GJJ的答案之书</a></header>
+
+    <article id="martix">
+        <p id="title">我要吃东西!</p>
+        <p id="unicorn"></p>
+        <input type="button" id="pick" value="Go Go Go!">
+        <div id="diy">{自定义清单}</div>
+        <div class="hide" id="content">
+            <textarea id="book" rows="9" cols="53">
+           
+			背带裤   铅笔裤   以纯短裤   吊带裤   高腰裤   喇叭裤   背带超短裤   牛仔短裤   背带短裤   打底裤   裙裤加绒打底   裤紧身裤   打底裤大码   秋冬打底裤   裤裙小脚裤   白色打底裤   一体裤纯棉打底裤   皮裤安全裤   冰丝裤   七分裤   打底三分裤   打底外穿裤 短外套   T恤衫女   套装裙   和服女装   新款女T恤   短袖   中年女装   小外套   防晒衣   热裤   金丝绒套装   三件套情侣套   装棉麻套装   运动服两件套   套装职业套装   运动装   小香风套装   套裙两件套套装   运动套装   秋季套装   女款运动服   瑜伽服   时尚女装   女吊带   雪纺衬衫   女装裙
+      沙滩裙   连衣裙   长袖真丝连衣裙   雪纺连衣裙   OL套装   A字裙   小礼服短裙   拉夏贝尔睡裙   雪纺裙  半身裙   百褶裙   旗袍裙   长款旗袍改良旗袍   晚礼服背带裙   旗袍棉麻旗袍   lolita洋装敬酒服秀禾服   龙凤褂丝绒旗袍   旗袍礼服   旗袍复古连衣裙   旗袍宽松旗袍      </textarea>
+            <button id="submit">确定</button>
+        </div>
+    </article>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript">
+        let btn = document.getElementById('pick'),
+            book = document.getElementById('book'),
+            unicorn = document.getElementById('unicorn'),
+            title = document.getElementById('title'),
+            diy = document.getElementById('diy'),
+            content = document.getElementById('content'),
+            submit = document.getElementById('submit'),
+            drink = document.getElementById('drink'),
+            popover = document.getElementById('popover'),
+            timer = null,
+            run = 0,
+            index = 0,
+            flag = 0
+
+        // 随机挑选礼物
+        btn.addEventListener('click',function(){
+            // 删除多余空格，分割字符串
+            let lollipop = book.value.replace(/ +/g, " ").replace(/^ | $/g, "").split(" ")
+            if (!run) {
+                btn.value = 'Stop'
+                title.innerText = ''
+                timer = setInterval(function(){
+                    // Math.ceil 向上取整
+                    // Math.random() 方法可返回介于 0 ~ 1 之间的一个随机数
+                    let props = Math.ceil(Math.random() * lollipop.length),
+                        propsTop = Math.ceil((Math.random() * (window.document.body.offsetHeight - 48)) + 48),
+                        propsLeft = Math.ceil(Math.random() * (window.document.body.offsetWidth - 140)),
+                        propsSize = Math.ceil(Math.random() * (24 - 12) + 12),
+                        surge = lollipop[props - 1],
+                        telegram = document.createElement('div')
+                    telegram.setAttribute('class','telegram')
+                    telegram.innerText = surge
+                    unicorn.innerText = surge
+                    telegram.style.cssText = `top: ${propsTop}px;left: ${propsLeft}px;color: "rgba(0,0,0,." + Math.random() + ")";font-size: ${propsSize}px`
+                    document.body.appendChild(telegram)
+                    // 动画
+                    $('.telegram').fadeIn("slow", function () {
+                        $(this).fadeOut("slow", function () {
+                            $(this).remove()
+                        })
+                    })
+                    run = 1
+                },50)
+            } else {
+                title.innerText = '喵喵喵！就决定是你啦!'
+                clearInterval(timer)
+                btn.value = 'Try 一 Try'
+                run = 0
+            }
+            index++
+            if(index == 7) {
+                alert('女人！ 我劝你善良！')
+                index = 0
+            }
+        })
+        // 自定义菜单
+        diy.addEventListener('click',function(){
+            content.classList.remove('hide')
+        })
+        // 提交新菜单
+        submit.addEventListener('click',function(){
+            content.classList.add('hide')
+        })
+    </script>
+</body>
+</html>
